@@ -1,6 +1,6 @@
 # Automated Cloud Monitor (Azure VM)
 
-**Author:** Jack Vopal  
+Jack Vopal  
 
 This project is a Linux-based monitoring and intrusion detection system deployed on an Azure virtual machine. It simulates real-world systems operations tasks such as service monitoring, failure recovery, and basic security analysis.
 
