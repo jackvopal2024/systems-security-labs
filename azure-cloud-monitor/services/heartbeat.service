@@ -1,0 +1,20 @@
+[Unit]
+Description=Azure System Health Heartbeat Service
+After=network.target
+
+[Service]
+# Utilizing the absolute path to the venv python interpreter as resolved in Phase 2
+ExecStart=/home/azureuser/venv/bin/python /home/azureuser/heartbeat.py
+User=azureuser
+Group=azureuser
+
+# Implementing the self-healing restart logic documented in the report
+Restart=always
+RestartSec=5
+
+# Capturing stdout/stderr for journalctl forensic review
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
