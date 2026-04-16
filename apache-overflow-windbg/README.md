@@ -91,6 +91,19 @@ This demonstrated successful redirection of execution flow.
 
 ---
 
+## 📸 Screenshots
+
+### EIP Overwrite
+![EIP Overwrite](screenshots/eip-overwrite.png)
+
+### JMP ESP Instruction
+![JMP ESP](screenshots/jmp-esp.png)
+
+### Stack Execution Verification
+![Debugger View](screenshots/debugger-view.png)
+
+---
+
 ## ⚠️ Disclaimer
 
 This project was conducted in a controlled lab environment using intentionally vulnerable software for educational purposes only.
